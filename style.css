@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+}
+
+header {
+    background-color: #007bff; /* Example brand color: blue */
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 60px; /* Adjust logo size as needed */
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
