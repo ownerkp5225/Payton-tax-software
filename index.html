@@ -14,57 +14,55 @@
 
     <main>
         <p>This is the main content area of your Payton Tax software.</p>
-    <main>
-    <section id="personal-info">
-        <h2>Personal Information</h2>
-        <form>
-            <div>
-                <label for="taxpayer-name">Your Name:</label>
-                <input type="text" id="taxpayer-name" name="taxpayer-name" required>
-            </div>
-            <div>
-                <label for="ssn">Social Security Number:</label>
-                <input type="text" id="ssn" name="ssn" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" placeholder="XXX-XX-XXXX" required>
-            </div>
-            <div>
-                <label for="address">Address:</label>
-                <input type="text" id="address" name="address" required>
-            </div>
-            <div>
-                <label for="city">City:</label>
-                <input type="text" id="city" name="city" required>
-            </div>
-            <div>
-                <label for="state">State:</label>
-                <select id="state" name="state" required>
-                    <option value="" disabled selected>Select a State</option>
-                    <option value="IL">Illinois</option>
-                    <option value="IN">Indiana</option>
-                    <option value="WI">Wisconsin</option>
-                    <option value="IA">Iowa</option>
-                    <option value="MO">Missouri</option>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <form>
+                <div>
+                    <label for="taxpayer-name">Your Name:</label>
+                    <input type="text" id="taxpayer-name" name="taxpayer-name" required>
+                </div>
+                <div>
+                    <label for="ssn">Social Security Number:</label>
+                    <input type="text" id="ssn" name="ssn" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" placeholder="XXX-XX-XXXX" required>
+                </div>
+                <div>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div>
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div>
+                    <label for="state">State:</label>
+                    <select id="state" name="state" required>
+                        <option value="" disabled selected>Select a State</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="IA">Iowa</option>
+                        <option value="MO">Missouri</option>
+                        </select>
+                </div>
+                <div>
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" id="zip" name="zip" pattern="[0-9]{5}(-[0-9]{4})?" placeholder="XXXXX or XXXXX-XXXX" required>
+                </div>
+                <div>
+                    <label for="filing-status">Filing Status:</label>
+                    <select id="filing-status" name="filing-status" required>
+                        <option value="" disabled selected>Select Filing Status</option>
+                        <option value="single">Single</option>
+                        <option value="married-jointly">Married Filing Jointly</option>
+                        <option value="married-separately">Married Filing Separately</option>
+                        <option value="head-of-household">Head of Household</option>
+                        <option value="qualifying-widow">Qualifying Widow(er)</option>
                     </select>
-            </div>
-            <div>
-                <label for="zip">Zip Code:</label>
-                <input type="text" id="zip" name="zip" pattern="[0-9]{5}(-[0-9]{4})?" placeholder="XXXXX or XXXXX-XXXX" required>
-            </div>
-            <div>
-                <label for="filing-status">Filing Status:</label>
-                <select id="filing-status" name="filing-status" required>
-                    <option value="" disabled selected>Select Filing Status</option>
-                    <option value="single">Single</option>
-                    <option value="married-jointly">Married Filing Jointly</option>
-                    <option value="married-separately">Married Filing Separately</option>
-                    <option value="head-of-household">Head of Household</option>
-                    <option value="qualifying-widow">Qualifying Widow(er)</option>
-                </select>
-            </div>
-            <button type="submit">Next: Income</button>
-        </form>
-    </section>
-</main>
-
+                </div>
+                <button type="submit">Next: Income</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2025 Payton Inc. All rights reserved.</p>
@@ -73,6 +71,5 @@
     <script src="script.js"></script>
 </body>
 </html>
-
 
     
