@@ -37,3 +37,79 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Styling for the Personal Information Section */
+#personal-info {
+    background-color: #ffffff; /* White background for the form section */
+    padding: 30px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 700px; /* Limit form width */
+    margin: 40px auto; /* Center the form on the page with space */
+}
+
+#personal-info h2 {
+    color: #007bff; /* Match header blue */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+#personal-info form div {
+    margin-bottom: 18px; /* Space between each form field group */
+    display: flex; /* Use flexbox for label and input alignment */
+    flex-direction: column; /* Stack label and input vertically */
+}
+
+#personal-info label {
+    display: block; /* Ensure label takes its own line */
+    margin-bottom: 8px; /* Space between label and input */
+    font-weight: bold; /* Make labels stand out */
+    color: #555; /* Slightly darker text for labels */
+}
+
+#personal-info input[type="text"],
+#personal-info select {
+    width: 100%; /* Full width within its container */
+    padding: 12px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: 1em;
+}
+
+#personal-info input[type="text"]:focus,
+#personal-info select:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Subtle focus shadow */
+}
+
+#personal-info button[type="submit"] {
+    background-color: #28a745; /* Green color for submit button */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: block; /* Make button take full width if needed, or center */
+    margin: 30px auto 0; /* Center the button and add top margin */
+}
+
+#personal-info button[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Adjust main content padding for better spacing around the form */
+main {
+    padding: 20px;
+    /* The max-width and margin:auto on #personal-info will help center it */
+}
+
+/* Optional: Make the initial paragraph less prominent or remove it */
+main > p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #666;
+}
